@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Khaleb Hope: Resume Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+		    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "2cVcMP4MQA-IzxCyj",
+            });
+        })();
+   		</script>
+		<script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(() => {
+                        alert('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    	</script>
+	</head>
+	<body class="is-preload">
+
+			<div id="wrapper">
+					<header id="header">
+
+							<a href="https://CodingTemple.com" class="logo"></a>
+
+						<div class="content">
+							<div class="inner">
+								<h1>Khaleb Hope</h1>
+								<p>Front-End Developer</p>
+
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact Info</a></li>
+								<li><a href="#elements">Contact Me</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<span class="image main"><img src="images/Intro.png" alt="" /></span>
+								<h2 class="major">Intro</h2>
+								<p>Hello! My name is Khaleb Hope,</p>
+								<p>I'm a self-taught developer with over 10 years of professional experience working in dynamic, team-oriented environments.</p>
+								<p>Most recently, I earned a Software Engineering certification with a specialization in front-end development from the highly regarded Coding Temple bootcamp.</p>
+								<p>Throughout my journey, I've consistently met challenges head-on and delivered results. I'm confident in my ability to quickly adapt to new projects and contribute effectively.
+									I'm now eager to bring my skills and passion for development to a professional software engineering role.</p>
+
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<span class="image main"><img src="images/WorkSpace.png" alt="" /></span>
+								<h2 class="major">Work</h2>
+
+							<h2>Commercial Shopping Cart Builder</h2>
+							<span class="image main"><img src="images/E-Commerce-ScrnShot.png" alt="" /></span>
+							<a href="https://e-commerce-ci-r3mmovpww-khalebs-projects-ad49bb4d.vercel.app/">E-Commerce-API</a>
+							<br>
+								<a href="https://github.com/khope7/e-commerce-ci.cd">E-Commerce-API - Git Hub</a>
+								<p></p>
+								<ul>
+									<li>Adjusted all shopping cart orders with count system using redux toolkit</li>
+									<li>Composed firebase authorization to individualize shopping carts for each respective user</li>
+									<li>Finalized user and shopping cart data database using Firebase and Firestore functionality</li>
+									<li>Integrated jest.config, yaml, and babel for continuous integration and continuous deployment functionality</li>
+									<li>Utilized createContext, useContext, use Effect methods to create fully functional shopping carts</li>
+								</ul>
+							<br>
+
+							<h2>User Creation Database</h2>
+							<span class="image main"><img src="images/E-Commerce-DtaBse-ScrnShot.png" alt="" /></span>
+							<a href="https://e-commerce-deployment-app.onrender.com">E-Commerce Database using Flask and SQL</a>
+							<br>
+							<a href="https://github.com/khope7/E-Commerce-API-React-MiniProject">E-Commerce Database using Flask and SQL Git Hub</a>
+								<ul>
+									<li>Utilized Flask-SQLAlchemy to integrate a MySQL database into an E-commerce API application using built in React Axios API Fetch commands with HTML and CSS.</li>
+									<li>Designed and created necessary models to represent customers, orders, products, and customer accounts within MySQL and used Flask-Alchemy CRUD operations to integrate tables and data within the project.</li>
+									<li>Leveraged classes via SQLAlchemy to establish one to many relations between tables for application functionality using class Schema object models.</li>
+									<li>Ensured proper database connections and interactions for data storage and retrieval using try except blocks to catch for data validation and error handling.</li>
+									<li>Developed on-site collections that categorize and group API requests according to their functionality for CRUD methods using handle submit functions within form HTML elements.</li>
+								</ul>
+							<br>
+
+							<h2>Pokemon API Mini Search</h2>
+							<span class="image main"><img src="images/PokemonAPI-ScrnShot.png" alt="" /></span>
+								<a href="https://khope7.github.io/PokemonAPI-MiniProject/">Pokemon Search</a>
+								<br>
+								<a href="https://github.com/khope7/PokemonAPI-MiniProject">Pokemon Search Git Hub</a>
+								<p></p>
+								<ul>
+									<li>Created a user-friendly and efficient tool for managing tasks effectively by integrating bootstrap style sheets</li>
+									<li>Instantiated webpages to simulate a Dashboard page, Details page, Creation page, Register page, and an Authentication Page using HTML hyperlinks and bootstrap's Navbar functionality.</li>
+									<li>Utilized cards, forms, buttons, carousels and Navigation bars for seamless user-friendly interface and design by accessing bootstrap style sheets built in webpage layouts from initial style sheet integration.</li>
+									<li>Organized webpages using form, option, and div elements along with CSS and bootstrap to create a seamless stress-free viewing experience for users</li>
+								</ul>
+
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<span class="image main"><img src="images/PortfolioProf.png" alt="" /></span>
+								<h2 class="major">About</h2>
+
+								<br>
+								<h3>Skills</h3>
+								<ul>
+									<li>Languages: JavaScript, HTML, CSS, Python, React, TypeScript</li>
+									<li>Frameworks/Libraries: React, Flask, Bootstrap</li>
+									<li>Databases: SQL, MySQL, VSCode</li>
+									<li>Tools/Dev Ops: GitHub, RESTful APIs, Vite</li>
+									<li>Certifications: Coding Temple Front-End Software Engineer</li>
+									<li>10+ years excelling in customer service either remote or in a team environment.</li>
+									<li>7+ years working with database and information systems, i.e.: Salesforce, Neustar, Workbench, CSG, Workday, Webtop, Rippling, Slack and more.</li>
+									<li>3+ years working hands on and face to face with customers.</li>
+									<li>Awarded in multiple professions for being great with people and handling critical situations.</li>
+									<li>Able to work all hours and weekends and in all environments both remotely and on site.</li>
+								</ul>
+								<br>
+								<br>
+								<h3>Experience</h3>
+								<br>
+								<h3>Software Engineer Trainee: Coding Temple, Remote</h3>
+								<h6>October, 2024 – July, 2025</h6>
+
+								<ul>
+									<li>Developing full stack projects utilizing React for the frontend and Flask for the backend, demonstrating application of coding principles.</li>
+									<li>Adapted to new programming concepts and technologies, demonstrating a strong ability to learn and apply knowledge effectively under tight deadlines
+										Worked along side with Coaches and students collaborating effective and efficient projects using JavaScript, HTML, CSS, Python, React, and TypeScript based coding applications.
+									</li>
+								</ul>
+
+								<br>
+								<h3>Change Of Service/Technical Support Agent, Comcast, Centennial, Co</h3>
+								<h6>January, 2017 - February, 2022</h6>
+
+								<ul>
+									<li>Handled customer services ranging from TV, internet, and phones using integrated company specific and general software technologies including Salesforce, Workbench, CSG, and Workday.</li>
+									<li>Allocated phone networking between phone service providers using Neustar and Salesforce for TN ownership and company validation.</li>
+									<li>Promoted to the Change of Service position encompassing everything under the scope of Comcast in relation to a customer's technical needs, ranging from changing phone types and adjusting a customer's bill for credits and promotions to disconnecting, moving, and renewing services using integrated and encoded Comcast applications.</li>
+								</ul>
+								<br>
+								<h3>Education</h3>
+								<ul>
+								<h3>CODING TEMPLE, ONLINE</h3>
+								<li>SOFTWARE ENGINEERING, OCT. 2024 - July 2025</li>
+								<br>
+								<h3>ARAPAHOE COMMUNITY COLLEGE, LITTLETON, CO</h3>
+								<li>COMPUTER SCIENCE MAJOR, AUG. - DEC. 2014</li>
+								<br>
+								<h3>METROPOLITAN STATE UNIVERSITY, DENVER, CO</h4>
+								<li>COMPUTER SCIENCE MAJOR, AUG. - DEC. 2013</li>
+								<br>
+								<h3>ARAPAHOE HIGH SCHOOL, CENTENNIAL, CO</h4>
+								<li>HIGH SCHOOL DIPLOMA, GRADUATED: JUNE 2012</li>
+								</ul>
+								<br>
+
+								<ul class="icons">
+									<li><a href="https://github.com/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+
+								<button><a href="https://www.linkedin.com/in/khaleb-hope-7936887a/">Linked In</a></button>
+
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<span class="image main"><img src="images/BusinessBuildings.png" alt="" /></span>
+								<h2 class="major">Contact</h2>
+								
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<h3>Khaleb Hope</h3>
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<h4>kh.hope7@gmail.com</h4>
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<h4>Constant improvement is the key to success.</h4>
+										</div>
+									</div>
+								</form>
+
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Contact Me</h2>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#" id="contact-form">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" value="" placeholder="your name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" value="" placeholder="email@domain.com" />
+											</div>
+											<div class="field">
+												<label for="category">Category</label>
+												<select name="category" id="category">
+													<option value="">-</option>
+													<option value="1">I have an inquiry:</option>
+													<option value="1">Here's some information:</option>
+													<option value="1">Reply:</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="priority-low" name="priority">
+												<label for="priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="priority-high" name="priority">
+												<label for="priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="copy" name="copy">
+												<label for="copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="human" name="human">
+												<label for="human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
+								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+						<i>&copy; Copyright 2025. All images rights reserved</i>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
